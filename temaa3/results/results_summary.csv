@@ -1,0 +1,4 @@
+Scaler,Best Params,CV Mean Accuracy,Test Accuracy
+standard,"{'clf': SVC(), 'clf__C': 0.1, 'clf__degree': 2, 'clf__gamma': 'scale', 'clf__kernel': 'linear'}",0.9695945945945945,0.9642857142857143
+minmax,"{'clf': SVC(), 'clf__C': 10, 'clf__degree': 2, 'clf__gamma': 'auto', 'clf__kernel': 'rbf'}",0.9731821106821107,0.9642857142857143
+robust,"{'clf': SVC(), 'clf__C': 1, 'clf__degree': 2, 'clf__gamma': 'auto', 'clf__kernel': 'poly'}",0.9713963963963964,0.9428571428571428

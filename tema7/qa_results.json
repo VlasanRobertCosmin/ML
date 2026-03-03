@@ -1,0 +1,62 @@
+{
+    "eval_result": {
+        "correct": 2,
+        "similar": 0,
+        "incorrect": 0,
+        "eval_loss": -0.23840582370758057
+    },
+    "prediction_answers": [
+        {
+            "id": "test-0",
+            "answer": [
+                "Paris",
+                "Paris is the capital city of France.",
+                "France.",
+                "city of France.",
+                "is the capital city of France.",
+                "the capital city of France.",
+                "Paris is the capital",
+                "Paris is the capital city of",
+                "of France.",
+                "Paris is the",
+                "Paris is the capital city",
+                "Paris is",
+                "capital city of France.",
+                "is the capital",
+                "the capital",
+                "city of",
+                "city",
+                "is the capital city of",
+                "is the",
+                "the capital city of"
+            ]
+        }
+    ],
+    "prediction_probabilities": [
+        {
+            "id": "test-0",
+            "probability": [
+                0.11846758314204481,
+                0.09273832462413277,
+                0.0715654925243828,
+                0.060444953031244614,
+                0.05821745691976216,
+                0.05723255221747155,
+                0.05584974164911155,
+                0.04462280921648744,
+                0.044438419854458344,
+                0.044382201998146964,
+                0.04317785894373496,
+                0.04072233459473187,
+                0.03748501233149151,
+                0.035060261672992275,
+                0.03446712314698518,
+                0.02908423910119775,
+                0.028142449914009007,
+                0.02801243696959785,
+                0.027861393262208347,
+                0.027538531334523452
+            ]
+        }
+    ]
+}

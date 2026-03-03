@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                tiprate   R-squared:                       0.138
+Model:                            OLS   Adj. R-squared:                  0.116
+Method:                 Least Squares   F-statistic:                     6.334
+Date:                Mon, 13 Oct 2025   Prob (F-statistic):           3.39e-06
+Time:                        17:10:34   Log-Likelihood:                 354.57
+No. Observations:                 244   AIC:                            -695.1
+Df Residuals:                     237   BIC:                            -670.7
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.1553      0.025      6.318      0.000       0.107       0.204
+total_bill    -0.0028      0.001     -5.232      0.000      -0.004      -0.002
+sex            0.0047      0.008      0.591      0.555      -0.011       0.020
+smoker         0.0119      0.008      1.506      0.133      -0.004       0.027
+day            0.0114      0.007      1.687      0.093      -0.002       0.025
+time          -0.0212      0.017     -1.224      0.222      -0.055       0.013
+size           0.0063      0.005      1.255      0.211      -0.004       0.016
+==============================================================================
+Omnibus:                      212.911   Durbin-Watson:                   2.009
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             6605.884
+Skew:                           3.181   Prob(JB):                         0.00
+Kurtosis:                      27.684   Cond. No.                         172.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

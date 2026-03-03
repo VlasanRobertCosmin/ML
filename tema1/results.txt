@@ -1,0 +1,18 @@
+=== VEHICLE DATA ANALYSIS ===
+
+Total number of cars: 4340
+Columns: ['name', 'year', 'selling_price', 'km_driven', 'fuel', 'seller_type', 'transmission', 'owner']
+
+Car with MIN price:
+                 name  year  selling_price  km_driven   fuel seller_type transmission        owner
+Ford Ikon 1.6 ZXI NXt  2005          20000      25000 Petrol  Individual       Manual Second Owner
+
+Car with MAX price:
+                                    name  year  selling_price  km_driven   fuel seller_type transmission       owner
+Audi RS7 2015-2019 Sportback Performance  2016        8900000      13000 Petrol      Dealer    Automatic First Owner
+
+Cars priced above 500000: 1461
+
+📊 Mean price: 504127.31
+📊 Standard deviation: 578548.74
+

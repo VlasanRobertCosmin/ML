@@ -1,0 +1,11 @@
+Selected features (SelectKBest – mutual_info_classif):
+mean radius
+mean perimeter
+mean area
+mean concavity
+mean concave points
+worst radius
+worst perimeter
+worst area
+worst concavity
+worst concave points

@@ -1,0 +1,38 @@
+=== Lecture 6 Results ===
+Number of runs: 30
+
+Model: NN
+  Mean Accuracy: 0.9739
+  Std Accuracy: 0.0100
+  Mean F1: 0.9793
+  Mean Kappa: 0.9440
+  Mean AUC: 0.9934
+  Confusion matrix (sum over runs):
+[[1834   86]
+ [  48 3162]]
+
+Model: DT
+  Mean Accuracy: 0.9267
+  Std Accuracy: 0.0224
+  Mean F1: 0.9410
+  Mean Kappa: 0.8442
+  Mean AUC: 0.9241
+  Confusion matrix (sum over runs):
+[[1754  166]
+ [ 210 3000]]
+
+Model: Bagging
+  Mean Accuracy: 0.9515
+  Std Accuracy: 0.0171
+  Mean F1: 0.9613
+  Mean Kappa: 0.8963
+  Mean AUC: 0.9848
+  Confusion matrix (sum over runs):
+[[1785  135]
+ [ 114 3096]]
+
+=== Wilcoxon signed-rank test (accuracy) ===
+Best models: NN vs Bagging
+Statistic: 12.5000
+p-value: 0.000009
+Conclusion: Reject H0 -> significant difference between the two models.
